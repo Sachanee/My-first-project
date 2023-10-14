@@ -9,3 +9,5 @@ Following is a Python script of the classic game “Hangman”. A row of dashes 
 ## Instructions
 
 1. Open index.html in your browser to get an idea of Hangman game.
+
+![hangman!](My-first-project/hangman.png)
