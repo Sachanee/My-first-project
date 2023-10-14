@@ -92,5 +92,7 @@ while life < 7:
 * Now you can run your own Hangman game!!.
 
 
+# Outputs
 
-
+![hangman output1](hangman_output.png)
+![hangman output2](hangman_output2.png)
