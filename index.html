@@ -8,9 +8,14 @@
             text-align: center;
         }
 
-        img {
-            display: block;
-            margin: 0 auto;
+        .image-container {
+            display: flex;
+            justify-content: center;
+        }
+
+        .image {
+            margin: 0 20px;
+            /* Add some space between images */
         }
 
         ul {
@@ -31,12 +36,12 @@
 
         }
     </style>
-</head>
-
-<body>
-    <h1>Playing Hangman</h1>
-
-    <img src="https://m.media-amazon.com/images/I/61aAZiGGSTL._SY466_.jpg" alt="Hangman Image">
+    <div class="image-container">
+        <img class="image" src="https://m.media-amazon.com/images/I/61aAZiGGSTL._SY466_.jpg" alt="Hangman Image">
+        <img class="image"
+            src="https://i5.walmartimages.com/seo/Fun-On-Paper-Hangman-Game-Activity-Book-Perfect-for-Childrens-Teenagers-and-The-Whole-Family-Paperback-9798560104986_b283672b-206b-4d31-8110-345c0d7ff4cb.657591bfa87a4b7694e72c2c54fd01a1.jpeg?odnHeight=2000&odnWidth=2000&odnBg=FFFFFF"
+            alt="Another Image">
+    </div>
     <p></p>
     <ul>
         <li>Hangman is an old school favorite, a word game where the goal is simply to find the missing word or words.
@@ -57,6 +62,6 @@
         <p></p>
         <li>Solve the puzzle before the hangman dies.</li>
     </ul>
-</body>
+    </body>
 
 </html>
